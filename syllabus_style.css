@@ -1,0 +1,20 @@
+/*Just the rules and not the style tag*/
+
+      h1 {
+        color: red;
+        border-bottom: 5px blue dashed;
+      }
+      h2 {
+        color: green;
+      }
+
+      /*the above is a header level*/
+
+      /*.xyz is class level*/
+
+      .highlight {
+        background-color: yellow;
+      }
+      .important {
+        text-decoration: underline;
+      }
