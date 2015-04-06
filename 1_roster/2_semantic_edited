@@ -1,0 +1,119 @@
+<html>
+
+<style>
+    body{
+        font-family:    "Rockwell"
+    }
+
+    h1{
+        color: Purple;
+        /*font:"Calibri";*/
+        text-transform:     uppercase;
+        padding-left:   15px;
+    }
+
+    h2{
+        background-color:   Purple;
+        color:  White;
+        text-transform: uppercase;
+        padding-left:   15px;
+
+    }
+
+.one{
+            border-style:   solid;
+            border-width:   1px;
+            border-color:   purple;
+            border-radius:  25px;
+            box-shadow:     2px 2px 5px #888888;
+            margin-bottom:  10px;
+}
+
+.circular{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    /*-webkit-border-radius: 150px;*/
+    /*-moz-border-radius: 150px;*/
+}
+
+.logo {
+    width: 280px;
+    height: 80px;
+}
+
+ul{
+    list-style-type:    none;
+    list-style-position:    left;
+}
+
+</style>
+
+
+    <head>
+        <title>DSGN425: Programming Design Spring 2015</title>
+    </head>
+
+
+  <body>
+
+        <h1><img class = "logo" src="http://msfhq.com/wp-content/uploads/2013/02/Northwestern-University-Kellogg-School-of-Management-Logo.jpg">
+        <br>
+        DSGN425: Programming Design Spring 2015</h1>
+        <section class="one">
+            <h2>Instructors</h2>
+            <ul>
+            <img class= "circular" src="https://pbs.twimg.com/profile_images/3129954605/040c032bd5c453e688b343040dec8c90_400x400.jpeg">
+             <br>
+             Raghu Betina
+
+             <p> </p>
+
+             <img class ="circular" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/8/005/06b/043/1c88c60.jpg">
+             <br>
+             Arjun Venkataswamy
+            </ul>
+        </section>
+
+
+<!-- <p>  </p>
+ -->
+<section class ="one">
+        <h2>Students</h2>
+        <ul>
+         <li>Emilia Pollich</li>
+         <li>Judson Kunde</li>
+         <li>Kelsie Wolff</li>
+         <li>Howell Wilderman</li>
+         <li>Pete Bogisich II</li>
+         <li>Kayley Jakubowski</li>
+         <li>Avis Cole</li>
+         <li>Vance Huels</li>
+         <li>Lance Lowe</li>
+         <li>Maya Wyman</li>
+         <li>Will Herzog Jr.</li>
+         <li>Terrence Reynolds</li>
+         <li>Sincere Kunde</li>
+         <li>Terrell Pouros</li>
+         <li>Abdullah Smith</li>
+         <li>Adolfo Kihn</li>
+         <li>Leanne Powlowski</li>
+         <li>Julian Hintz</li>
+         <li>Francesco Reichert</li>
+         <li>Dixie Bradtke</li>
+        </ul>
+</section>
+
+<!-- <p>  </p> -->
+
+        <section class = "one">
+        <h2>Resources</h2>
+
+        <ul>
+         <li><a href = "https://github.com/dsgn425-s15">Course GitHub page</a></li>
+         <li><a href = "http://ask.firstdraft.com/c/dsgn425-spring-2015">Course forum</a></li>
+         <li><a href = "Course syllabus: http://dsgn425-s15.github.io/syllabus/">Course syllabus</a></li>
+        </ul>
+        </section>
+    </body>
+</html>
